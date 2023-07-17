@@ -22,7 +22,7 @@
 1. 克隆项目到本地：
 
    ```bash
-   git clone https://github.com/your-username/vue-starter.git
+   git clone https://github.com/BlueSgler/vue-starter.git
    ```
 
 2. 进入项目目录：
@@ -48,6 +48,14 @@
    ```
 
    该命令将启动一个开发服务器，并在浏览器中打开项目。
+
+   **注意：** 如果您需要在开发过程中使用环境变量，请确保在启动开发服务器之前将环境变量配置到项目中。您可以在项目根目录下创建一个`.env`文件，并在其中定义您的环境变量。例如：
+
+   ```
+   VUE_APP_API_URL=http://localhost:3000/api
+   ```
+
+   然后，在您的代码中可以使用`process.env.VUE_APP_API_URL`来访问该环境变量。
 
 5. 开始开发：
 
